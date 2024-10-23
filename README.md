@@ -1,13 +1,9 @@
 ﻿# Health-Tech
 ## Link Figma :https://www.figma.com/design/xwPMap8Mb6rW2ZAO1HXsdh/Doclendar?node-id=0-1&node-type=canvas&t=35EVApLx5vG4WV1c-0
 ## Entrega e avaliação
-<a>https://www.figma.com/design/xwPMap8Mb6rW2ZAO1HXsdh/Doclendar?node-id=0-1&node-type=canvas&t=35EVApLx5vG4WV1c-0 </a>
+
 # Entrega dia 17/11
 
-# Hexagon Technology Element Design
-
-# Transparent White Gradient
-# Transparent White Gradient
 # Envio de projeto: Todos os projetos devem está em um ​repositório público ​no GitHub contendo todo o código, ​documentação e recursos utilizados. ​Vamos ​disponibilizar um forms para envio do link do ​repositório.
 
 
