@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/polynesianBlue"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="164dp"
+        android:src="@drawable/baseline_medical_information_24"
+        android:layout_marginTop="94dp"
+        />
+
+    <EditText
+        android:id="@+id/loginInput"
+        android:layout_width="376dp"
+        android:layout_height="56dp"
+        android:hint="@string/login"
+        android:padding="12dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/anti_fleshwhite"
+        android:background="@color/white"
+        android:textColorHint="@color/polynesianBlue"
+        />
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="376dp"
+        android:layout_height="56dp"
+        android:hint="@string/password"
+        android:padding="12dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/anti_fleshwhite"
+        android:background="@color/white"
+        android:textColorHint="@color/polynesianBlue"
+        />
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="244dp"
+        android:layout_height="44dp"
+        android:text="Entrar"
+        android:layout_marginTop="94dp"
+        android:backgroundTint="@color/anti_fleshwhite"
+        android:textColor="@color/polynesianBlue"
+        />
+    <Button
+        android:id="@+id/forgotBtn"
+        android:layout_width="244dp"
+        android:layout_height="44dp"
+        android:text="Esqueceu a senha?"
+        android:layout_marginTop="14dp"
+        android:backgroundTint="@color/polynesianBlue"
+        android:textColor="@color/anti_fleshwhite"
+        />
+
+</LinearLayout>
