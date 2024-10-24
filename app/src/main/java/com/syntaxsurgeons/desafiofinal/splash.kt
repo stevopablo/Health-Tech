@@ -17,4 +17,6 @@ class splash : AppCompatActivity() {
             insets
         }
     }
+
+
 }

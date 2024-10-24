@@ -2,4 +2,5 @@
     <string name="app_name">DesafioFinal</string>
     <string name="login">Login</string>
     <string name="password">Senha</string>
+    <string name="greeting">hello user</string>
 </resources>

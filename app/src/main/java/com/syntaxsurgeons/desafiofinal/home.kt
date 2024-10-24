@@ -1,30 +1,29 @@
 package com.syntaxsurgeons.desafiofinal
 
-import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
+import android.provider.ContactsContract.CommonDataKinds.Email
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_home)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
         }
-            supportActionBar?.hide()
-
-            Handler().postDelayed({
-                val intent = Intent(this@MainActivity,Login::class.java)
-                startActivity(intent)
-                finish()
-            },3000)
+//change email to nome
+//        pegar intent
+        val name = intent.getStringExtra("EmailUser")
+        val userName: TextView = findViewById(R.id.helloUser)
+        userName.text = "Hello, $name"
     }
+
 }
