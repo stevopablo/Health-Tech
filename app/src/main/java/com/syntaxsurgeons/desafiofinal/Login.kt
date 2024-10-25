@@ -34,7 +34,9 @@ class Login : AppCompatActivity() {
                 if (email.isEmpty() || password.isEmpty()) {
                     Toast.makeText(this, "Preencha os campos!", Toast.LENGTH_SHORT).show()
                 } else {
-                    val intent = Intent(this, MainActivity::class.java)
+//                    navegar para outra pagina
+//                    val intent = Intent(this, MainActivity::class.java)
+                    val intent = Intent(this@Login,home::class.java)
 //                    fazer intent para exportar
                     intent.putExtra("EmailUser", email)
                     startActivity(intent)

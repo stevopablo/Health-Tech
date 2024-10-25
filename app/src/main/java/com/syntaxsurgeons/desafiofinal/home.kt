@@ -21,7 +21,7 @@ class home : AppCompatActivity() {
         }
 //change email to nome
 //        pegar intent
-        val name = intent.getStringExtra("EmailUser")
+        val name = intent.getStringExtra("EmailUser")?: "Convidado"
         val userName: TextView = findViewById(R.id.helloUser)
         userName.text = "Hello, $name"
     }

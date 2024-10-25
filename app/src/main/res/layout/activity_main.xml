@@ -10,7 +10,13 @@
     android:gravity="center"
     tools:context=".MainActivity">
 
-
-
+<!--mudar o splash-->
+    <!--splash que funciona -->
+    <ImageView
+        android:layout_width="114dp"
+        android:layout_height="164dp"
+        android:src="@drawable/baseline_medical_information_24"
+        android:padding="14dp"
+        app:tint="@color/white" />
 
 </LinearLayout>

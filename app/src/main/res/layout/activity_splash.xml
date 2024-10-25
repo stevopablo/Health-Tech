@@ -9,7 +9,7 @@
     android:background="@color/polynesianBlue"
     tools:context=".splash">
 
-
+<!--splash -->
     <ImageView
         android:layout_width="114dp"
         android:layout_height="164dp"
