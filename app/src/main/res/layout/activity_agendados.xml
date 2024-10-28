@@ -232,18 +232,48 @@
 
     </FrameLayout>
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+<!--Todo fix size and add ID-->
 
-        <TextView
+<!--navbar-->
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="44dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="140dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="wwww"
-            android:background="@color/white"
-            />
+            android:padding="8dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/baseline_home_24" />
 
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/baseline_calendar_month_24" />
 
-    </FrameLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/baseline_add_circle_outline_24" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/baseline_account_circle_24" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_settings_24" />
+
+    </LinearLayout>
+
 
 </LinearLayout>
