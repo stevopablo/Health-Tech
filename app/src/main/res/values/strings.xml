@@ -7,9 +7,12 @@
     <string name="categories">Categorias</string>
     <string name="search">Pesquisar</string>
     <string name="consultations">Próximas Consultas</string>
-    <string name="adsHome">YOUR_PLACEMENT_ID</string>
     <string name="boxInput">Tire sua duvida...</string>
     <string name="exampleSearch">Pesquisar: exemplo: Nutrição</string>
     <string name="drName">Dra. Maria Silva</string>
-    <string name="dateConsult">Consultas Próximas</string>
+    <string name="dayConsult">Consultas Próximas</string>
+    <string name="scheduled">Consultas Marcadas</string>
+    <string name="dayAndTime">Segunda-feira | 16:00</string>
+    <string name="speciality">Clinico Geral</string>
+
 </resources>
