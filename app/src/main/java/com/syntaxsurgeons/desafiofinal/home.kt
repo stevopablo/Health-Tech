@@ -1,8 +1,6 @@
 package com.syntaxsurgeons.desafiofinal
 
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Email
-import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -19,11 +17,13 @@ class home : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
 //change email to nome
 //        pegar intent
         val name = intent.getStringExtra("EmailUser")?: "Convidado"
         val userName: TextView = findViewById(R.id.helloUser)
-        userName.text = "Hello, $name"
+        userName.text = "Olá, $name"
     }
 
 }
