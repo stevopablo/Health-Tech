@@ -27,13 +27,14 @@ class home : AppCompatActivity() {
 
         val Data = LocalDateTime.now()
         val dataHours = Data.hour
+
         if (dataHours < 12) {
-        userName.text = "Bom dia, $name !"
-    }else if (dataHours >= 12 && dataHours < 18) {
-        userName.text = "Boa tarde, $name !"
-    }else {
-        userName.text = "Boa noite, $name !"
-    }
+            userName.text = "Bom dia, $name !"
+        }else if (dataHours >= 12 && dataHours < 18) {
+            userName.text = "Boa tarde, $name !"
+        }else {
+            userName.text = "Boa noite, $name !"
+        }
     }
 
 }

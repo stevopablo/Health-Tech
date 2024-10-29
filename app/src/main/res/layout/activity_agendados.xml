@@ -211,7 +211,7 @@
             android:layout_marginLeft="12sp"
             >
 
-
+<!--todo mudar formato da hora-->
             <ImageView
                 android:layout_width="239dp"
                 android:layout_height="wrap_content"

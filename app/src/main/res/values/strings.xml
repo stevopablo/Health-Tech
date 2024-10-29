@@ -16,4 +16,9 @@
     <string name="speciality">Clinico Geral</string>
     <string name="yourConsults">Suas Consultas</string>
     <string name="noConsult">Dra colapinto</string>
+    <string name="setting">Configurarações</string>
+    <string name="account">Conta</string>
+    <string name="logout">Sair do aplicativo</string>
+    <string name="changeAccount">Trocar Conta</string>
+
 </resources>
