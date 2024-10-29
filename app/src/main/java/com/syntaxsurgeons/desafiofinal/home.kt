@@ -1,6 +1,8 @@
 package com.syntaxsurgeons.desafiofinal
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageButton
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -35,6 +37,30 @@ class home : AppCompatActivity() {
         }else {
             userName.text = "Boa noite, $name !"
         }
+
+
+
+        val calendarButton: ImageButton = findViewById(R.id.calendarButton)
+        calendarButton.setOnClickListener {
+            val intent = Intent(this@home, Agendados::class.java)
+            startActivity(intent)
+        }
+
+        val settingsButton: ImageButton = findViewById(R.id.settingsButton)
+        settingsButton.setOnClickListener {
+            val intent = Intent(this@home, Config::class.java)
+            startActivity(intent)
+        }
+
+
+        val addConsul = findViewById<ImageButton>(R.id.AddConsul)
+        addConsul.setOnClickListener {
+            val intent = Intent(this@home, CalendarActivity::class.java)
+            startActivity(intent)
+
+        }
     }
+
+
 
 }

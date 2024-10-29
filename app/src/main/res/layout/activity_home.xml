@@ -256,6 +256,7 @@
             android:src="@drawable/baseline_home_24" />
 
         <ImageButton
+            android:id="@+id/calendarButton"
             android:layout_width="79dp"
             android:layout_height="58dp"
             android:layout_alignParentStart="true"
@@ -267,6 +268,7 @@
             android:src="@drawable/baseline_calendar_month_24" />
 
         <ImageButton
+            android:id="@+id/userButton"
             android:layout_width="73dp"
             android:layout_height="63dp"
             android:layout_alignParentEnd="true"
@@ -278,6 +280,7 @@
             android:src="@drawable/baseline_account_circle_24" />
 
         <ImageButton
+            android:id="@+id/settingsButton"
             android:layout_width="69dp"
             android:layout_height="60dp"
             android:layout_alignParentStart="true"
@@ -289,6 +292,7 @@
 
 
         <ImageButton
+            android:id="@+id/AddConsul"
             android:layout_width="79dp"
             android:layout_height="66dp"
             android:layout_alignParentStart="true"
