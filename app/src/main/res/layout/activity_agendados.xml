@@ -212,13 +212,12 @@
             >
 
 
-           <ImageView
-               android:layout_width="184sp"
-               android:layout_height="wrap_content"
-               android:src="@drawable/Input"
-               />
+            <ImageView
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/Input" />
 
-        <TextView
+            <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/dayAndTime"
