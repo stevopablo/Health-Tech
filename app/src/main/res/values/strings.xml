@@ -20,5 +20,7 @@
     <string name="account">Conta</string>
     <string name="logout">Sair do aplicativo</string>
     <string name="changeAccount">Trocar Conta</string>
-
+    <string name="cpf">CPF</string>
+    <string name="birth">data de nascimento</string>
+    <string name="email">e-mail</string>
 </resources>

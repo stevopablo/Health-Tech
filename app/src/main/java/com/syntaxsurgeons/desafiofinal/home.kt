@@ -57,7 +57,12 @@ class home : AppCompatActivity() {
         addConsul.setOnClickListener {
             val intent = Intent(this@home, CalendarActivity::class.java)
             startActivity(intent)
+        }
 
+        val userButton: ImageButton = findViewById(R.id.userButton)
+        userButton.setOnClickListener{
+            val intent = Intent(this@home,User::class.java)
+            startActivity(intent)
         }
     }
 
