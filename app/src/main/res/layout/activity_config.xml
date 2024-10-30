@@ -111,6 +111,7 @@
         android:layout_alignParentBottom="true">
 
         <ImageButton
+            android:id="@+id/homeBtn"
             android:layout_width="70dp"
             android:layout_height="64dp"
             android:src="@drawable/baseline_home_24"
