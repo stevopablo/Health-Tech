@@ -7,15 +7,15 @@
     <string name="categories">Categorias</string>
     <string name="search">Pesquisar</string>
     <string name="consultations">Próximas Consultas</string>
-    <string name="boxInput">Tire sua duvida...</string>
+    <string name="boxInput">Tire sua duvida</string>
     <string name="exampleSearch">Pesquisar: exemplo: Nutrição</string>
-    <string name="drName">Dra. Maria Silva Colapinto</string>
+    <string name="drName">Dra. Maria Silva Camara</string>
     <string name="dayConsult">Consultas Próximas</string>
     <string name="scheduled">Consultas Marcadas</string>
     <string name="dayAndTime">Segunda-feira \n 16:00 Horas</string>
-    <string name="speciality">Clinico Geral</string>
+    <string name="speciality">Clínico Geral</string>
     <string name="yourConsults">Suas Consultas</string>
-    <string name="noConsult">Dra colapinto</string>
+    <string name="noConsult">Dra Calvacante</string>
     <string name="setting">Configurarações</string>
     <string name="account">Conta</string>
     <string name="logout">Sair do aplicativo</string>
@@ -23,4 +23,8 @@
     <string name="cpf">CPF</string>
     <string name="birth">data de nascimento</string>
     <string name="email">e-mail</string>
+    <string name="cancelBtn">Cancelar Consulta</string>
+    <string name="place">Clínica Saude</string>
+    <string name="horario">Terça-feira \n 10 </string>
+    <string name="description">Observações quie foram escritas constam aqui.</string>
 </resources>

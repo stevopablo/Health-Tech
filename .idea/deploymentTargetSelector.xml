@@ -4,11 +4,11 @@
     <selectionStates>
       <SelectionState runConfigName="MainActivity">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-10-27T22:29:25.646737400Z">
+        <DropdownSelection timestamp="2024-11-02T15:30:47.364642100Z">
           <Target type="DEFAULT_BOOT">
-            <template>
-              <DeviceId pluginId="FirebaseDirectAccess" type="TEMPLATE" identifier="model_id=gts8uwifi/33" />
-            </template>
+            <handle>
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\steva\.android\avd\Pixel_2_API_35.avd" />
+            </handle>
           </Target>
         </DropdownSelection>
         <DialogSelection />

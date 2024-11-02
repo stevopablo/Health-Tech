@@ -7,4 +7,135 @@
     android:layout_height="match_parent"
     tools:context=".Details">
 
+    <ImageButton
+        android:id="@+id/backTo"
+        android:layout_width="48dp"
+        android:layout_height="46dp"
+        android:background="@color/white"
+        android:src="@drawable/baseline_arrow_back_24"
+        android:contentDescription="backTo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp" />
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drName"
+        android:textStyle="bold"
+        android:textColor="@color/polynesianBlue"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/backTo"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speciality"
+        android:textColor="@color/polynesianBlue"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/doctorName"
+        app:layout_constraintStart_toStartOf="@id/doctorName"
+        android:layout_marginTop="8dp"/>
+
+
+    <ImageView
+        android:layout_width="44sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_star_rate_24"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:layout_width="44sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_star_rate_24"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:layout_width="44sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_star_rate_24"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+    <ImageView
+        android:layout_width="44sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_star_rate_24"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:layout_width="44sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_star_rate_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+    <ImageView
+        android:id="@+id/boxToComponents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buttonb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/horario"
+        android:textColor="@color/polynesianBlue"
+        android:textSize="24sp"
+        android:lineSpacingExtra="5sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="54dp"
+        android:text="16:00"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textColor="@color/polynesianBlue"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+
+
+    <TextView
+        android:layout_width="346dp"
+        android:layout_height="24dp"
+        android:gravity="center"
+        android:textColor="@color/polynesianBlue"
+        android:text="@string/description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/cancelBtn"
+        android:layout_width="264sp"
+        android:layout_height="46sp"
+        android:backgroundTint="#E91B1B"
+        android:text="@string/cancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="619dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
