@@ -23,8 +23,11 @@
     <string name="cpf">CPF</string>
     <string name="birth">data de nascimento</string>
     <string name="email">e-mail</string>
+    <string name="moonday">Segunda-feira \n Dia 10</string>
+    <string name="goBack">Voltar para</string>
+    <string name="hours">9:30</string>
     <string name="cancelBtn">Cancelar Consulta</string>
     <string name="place">Clínica Saude</string>
     <string name="horario">Terça-feira \n 10 </string>
-    <string name="description">Observações quie foram escritas constam aqui.</string>
+    <string name="description">Observações que foram escritas constam aqui.</string>
 </resources>

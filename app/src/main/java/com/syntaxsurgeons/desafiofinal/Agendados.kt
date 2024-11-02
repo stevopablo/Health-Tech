@@ -28,7 +28,7 @@ class Agendados : AppCompatActivity() {
 
         val backTo = findViewById<ImageButton>(R.id.backTo)
         backTo.setOnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, home::class.java)
             startActivity(intent)
         }
 

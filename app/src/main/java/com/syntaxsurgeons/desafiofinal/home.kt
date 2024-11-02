@@ -55,7 +55,7 @@ class home : AppCompatActivity() {
 
         val addConsul = findViewById<ImageButton>(R.id.AddConsul)
         addConsul.setOnClickListener {
-            val intent = Intent(this@home, CalendarActivity::class.java)
+            val intent = Intent(this@home, Marcar::class.java)
             startActivity(intent)
         }
 
