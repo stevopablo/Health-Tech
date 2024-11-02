@@ -7,6 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import java.util.Calendar
 
 class Agendados : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,36 @@ class Agendados : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+        val calendarButton = findViewById<ImageButton>(R.id.calendarButton)
+        calendarButton.setOnClickListener {
+            val intent = Intent(this, Calendar::class.java)
+            startActivity(intent)
+        }
+
+        val userButton = findViewById<ImageButton>(R.id.userButton)
+        userButton.setOnClickListener {
+            val intent = Intent(this, User::class.java)
+            startActivity(intent)
+        }
+
+        val canceBtn1 = findViewById<ImageButton>(R.id.CancelBtn1)
+        canceBtn1.setOnClickListener {
+            val intent = Intent(this, Details::class.java)
+            startActivity(intent)
+        }
+
+        val canceBtn2 = findViewById<ImageButton>(R.id.CancelBtn2)
+        canceBtn2.setOnClickListener {
+            val intent = Intent(this, Details::class.java)
+            startActivity(intent)
+        }
+
+        val canceBtn3 = findViewById<ImageButton>(R.id.CancelBtn3)
+        canceBtn3.setOnClickListener {
+            val intent = Intent(this, Details::class.java)
+            startActivity(intent)
+        }
     }
 
 }
