@@ -9,18 +9,28 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.firebase.auth.FirebaseAuth
+import com.syntaxsurgeons.desafiofinal.databinding.ActivityLoginBinding
 
 class Login : AppCompatActivity() {
+    private lateinit var binding: ActivityLoginBinding
+    private lateinit var auth: FirebaseAuth
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_login)
+
+        // Initialize binding
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        auth = FirebaseAuth.getInstance()
 
         val emailText: EditText = findViewById(R.id.loginInput)
         val passwordText: EditText = findViewById(R.id.passwordInput)
@@ -34,20 +44,16 @@ class Login : AppCompatActivity() {
                 if (email.isEmpty() || password.isEmpty()) {
                     Toast.makeText(this, "Preencha os campos!", Toast.LENGTH_SHORT).show()
                 } else {
-//                    navegar para outra pagina
-//                    val intent = Intent(this, MainActivity::class.java)
-                    val intent = Intent(this@Login,home::class.java)
-//                    fazer intent para exportar
+                    val intent = Intent(this@Login, home::class.java)
                     intent.putExtra("EmailUser", email)
                     startActivity(intent)
                     finish()
                 }
             } catch (e: Exception) {
-//                rastro do erro
                 e.printStackTrace()
                 Toast.makeText(this, "Ocorreu um erro", Toast.LENGTH_SHORT).show()
             } finally {
-                Toast.makeText(this,"logado",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"Logado com sucesso!", Toast.LENGTH_SHORT).show()
             }
         }
     }
