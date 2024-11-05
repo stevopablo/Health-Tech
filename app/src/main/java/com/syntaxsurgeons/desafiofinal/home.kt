@@ -8,6 +8,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 import java.time.LocalDateTime
 
 class home : AppCompatActivity() {
@@ -21,7 +23,10 @@ class home : AppCompatActivity() {
             insets
         }
 
-
+        val logouBtn: ImageButton = findViewById(R.id.logouBtn)
+        logouBtn.setOnClickListener {
+            Firebase.auth.signOut()
+        }
 //change email to nome
 //        pegar intent
         val name = intent.getStringExtra("EmailUser")?: "Convidado"
